@@ -30,6 +30,8 @@ const generatePara = () => {
 
     container.append(para);
 
+    document.getElementById('numOfWords').value = '';
+
 };
 
 function toTitleCase(str) {
